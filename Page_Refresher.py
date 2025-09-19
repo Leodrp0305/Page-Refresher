@@ -3,7 +3,7 @@ import time
 
 #Now we gotta be using the info we got in Pixel_Scanner.py
 
-print("Refresing the page each 5 seconds. CTRL + C to stop.")
+print("Refresing the page each 5 seconds. CTRL + C to stop.") #this function does not work
 
 try:
     while True:
@@ -14,4 +14,5 @@ try:
             break
 except KeyboardInterrupt:
     print("\nStoping the code.") 
-    #the code gotta interrupt if the color change or you press CTRL + C
+
+    #the code will be interrupted if the color change
